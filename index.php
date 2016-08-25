@@ -283,7 +283,7 @@
 							  /*'<div id="bodyContent">'+
 							  '<p>Direcci&oacute;n: Maip&uacute; 350<p>' +
 							  '<p>Tel&eacute;fonos: 4325.7902/1028<p>'+
-							  '</div>'+*/
+							  '</div>'+*//**/
 							  '</div>';
 
 							var infowindow = new google.maps.InfoWindow({
