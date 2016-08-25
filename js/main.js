@@ -10,13 +10,13 @@ $(document).ready(function(){
 	$( ".fa-facebook, .fa-twitter, .fa-instagram" ).mouseenter(function() {
 	  $( this ).animate({
           color: "#52C5C5",
-        }, 250 );
+        }, 300 );
 	});
 
 	$( ".fa-facebook, .fa-twitter, .fa-instagram" ).mouseleave(function() {
 	  $( this ).animate({
             color:"#f86942",
-        }, 250 );
+        }, 300 );
 	});
 	// Scroll Animations
 	// SmoothScroll
