@@ -1,11 +1,16 @@
 $(document).ready(function(){
 	
-	/*$( ".fh5co-arrow" ).mouseover(function() {
+	$( ".fh5co-arrow" ).mouseenter(function() {
 	  $( this ).animate({
-          background: "#aa0000",
-        }, 500 );
-	  console.log($(this));
-	});*/
+          backgroundColor: "#f78465",
+        }, 250); 
+    });
+
+    $( ".fh5co-arrow" ).mouseleave(function() {
+	  $( this ).animate({
+          backgroundColor: "#f86942",
+        }, 250); 
+    });
 
 	$( ".fa-facebook, .fa-twitter, .fa-instagram" ).mouseenter(function() {
 	  $( this ).animate({
@@ -34,7 +39,7 @@ $(document).ready(function(){
 	var general = function() {
 		$('.animate-box').waypoint( function( direction ) {
 			if( direction === 'down' && !$(this).hasClass('animated') ) {
-				console.log($(this.element).addClass('fadeInUp animated'));
+				$(this.element).addClass('fadeInUp animated');
 			}
 		} , { offset: '70%' } );
 		/*$('.animate-box').waypoint( function( direction ) {
@@ -51,13 +56,13 @@ $(document).ready(function(){
 				if( direction === 'down' && !$(this).hasClass('animated') ) {
 					setTimeout(function(){
 						$('.hero-animate-1').addClass('fadeInUp animated');
-					}, 100);
-					setTimeout(function(){
-						$('.hero-animate-2').addClass('fadeInUp animated');
 					}, 400);
 					setTimeout(function(){
-						$('.hero-animate-3').addClass('fadeInUp animated');
+						$('.hero-animate-2').addClass('fadeInUp animated');
 					}, 700);
+					setTimeout(function(){
+						$('.hero-animate-3').addClass('fadeInUp animated');
+					}, 900);
 					$(this).addClass('animated');
 						
 				}

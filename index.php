@@ -219,7 +219,7 @@
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-12 ">
-								<h2 class="primertitulo">Telefonos</h2>
+								<h2 class="primertitulo">Teléfonos</h2>
 								<p>
 									4325.1028<br>
 									4325.7902
