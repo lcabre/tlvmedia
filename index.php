@@ -21,6 +21,7 @@
 		</head>
 	<body>
 		<nav class="navbar navbar-default" id="nav">
+		
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="col-md-8 col-centered">
