@@ -19,29 +19,28 @@ a:link, a:visited{
 
 p{
 	font-family: "Source Sans Pro",Helvetica,sans-serif;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 17px;
+	line-height: 25px;
 	text-align: justify;
 	font-weight: 400;
 }
 
 h1 {
-  font-size: 55px;
-  line-height: 70px;
+  font-size: 44px;
+  line-height: 56px;
   font-weight: 300;
 }
 
 h2 {
-  font-size: 35px;
-  line-height: 1.35em;
+  font-size: 28px;
+  line-height: 35px;
   font-weight: 300;
 }
 
 h3 {
-  font-size: 1.8em;
-  line-height: 1.35em;
+  font-size: 20px;
   font-weight: 300;
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 }
 
 .fa-facebook, .fa-twitter, .fa-instagram{
@@ -59,7 +58,7 @@ h3 {
 }
 
 .container{
-
+/*width: 67%;*/
 }
 .col-centered{
   float: none;
@@ -73,7 +72,7 @@ h3 {
 .list-group-item{
 	color: #fff;
   /* margin-top: 0.9em; */
-  font-size: 1.1em;
+  font-size: 12px;
   background-color: transparent;
   border-color: transparent;
 }
@@ -86,7 +85,7 @@ h3 {
 	width: 400px;
 }
 #header, #uno, #dos, #footer{
-	padding: 55px 0px 55px 0;
+	padding: 44px 0px 44px 0;
 }
 #header {
  /* background-attachment: fixed, fixed, fixed;*/
@@ -98,7 +97,7 @@ h3 {
   background-size: auto auto, cover, cover;
   color: rgba(255, 255, 255, 0.75);
   overflow: unset;
-  padding: 10em 0;
+  padding: 150px 0;
   position: relative;
   text-align: center;
   color:white;
@@ -123,11 +122,10 @@ h3 {
   margin-left: -30px;
   display: table;
   color: #ffffff;
-  font-size: 35px;
   z-index: 99;
   text-decoration: none;
-  width: 65px;
-  height: 65px;
+  width: 48px;
+  height: 48px;
   background: #f86942;
   border-bottom: none !important;
   text-align: center;
@@ -157,10 +155,10 @@ h3 {
 
 #header .fa-chevron-down{
   padding-top: 17px;
-  font-size: 30px;
+  font-size: 24px;
 }
 #footer .fa-chevron-up {
-    font-size: 30px;
+    font-size: 24px;
     padding: 0 0 6px;
 }
 
@@ -171,11 +169,10 @@ h3 {
   margin-left: -30px;
   display: table;
   color: #ffffff !important;
-  font-size: 24px;
   z-index: 99;
   text-decoration: none;
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   background: #f86942;
   border-bottom: none !important;
   text-align: center;
@@ -216,7 +213,7 @@ h3 {
 	color:white;
 }
 #dos img{
-	width:80%;
+	width:65%;
 }
 
 #footer{
@@ -230,12 +227,12 @@ h3 {
 }
 
 #footer  p{
-	font-size:17px;
+	font-size:14px;
 }
 
 #footer  h2{
-	font-size:30px;
-	margin-top: 35px;
+	font-size:26px;
+	margin-top: 17px;
 }
 #footer .primertitulo{
 	margin-top:0;
@@ -245,7 +242,7 @@ h3 {
 }
 
 #map{
-	height:300px;
+	height:240px;
 	color:#555;
 }
 #map h1{
@@ -255,7 +252,7 @@ h3 {
   opacity: 0;
 }
 .fa-3{
-	font-size:70px;
+	font-size:56px;
 }
 
 .fa-wifi::before {
@@ -288,3 +285,5 @@ h3 {
 		margin-bottom:75px;
 	}
 }
+
+
