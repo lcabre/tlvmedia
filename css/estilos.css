@@ -43,6 +43,21 @@ h3 {
   font-weight: 300;
   margin-bottom: 1em;
 }
+
+.fa-facebook, .fa-twitter, .fa-instagram{
+  color: #f86942;
+  -webkit-transition: color 300ms ease;
+  -moz-transition: color 300ms ease;
+  -o-transition: color 300ms ease;
+  -ms-transition: color 300ms ease;
+  transition: color 200ms ease;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover{
+  color: #52C5C5;
+  
+}
+
 .container{
 
 }
@@ -126,11 +141,27 @@ h3 {
   -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  -ms-transition: background-color 300ms ease;
+  transition: background-color 200ms ease;
 }
+
+#header .fh5co-arrow:hover{
+  background-color: #F83F2C;
+}
+#footer .fh5co-arrow:hover  {
+  background-color: #52C5C5;
+}
+
 #header .fa-chevron-down{
-  padding:5px;
-  -webkit-font-smoothing: antialiased;
-  padding-top: 13px;
+  padding-top: 17px;
+  font-size: 30px;
+}
+#footer .fa-chevron-up {
+    font-size: 30px;
+    padding: 0 0 6px;
 }
 
 #footer .fh5co-arrow {
@@ -158,6 +189,11 @@ h3 {
   -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  -ms-transition: background-color 300ms ease;
+  transition: background-color 200ms ease;
 }
 #footer .fh5co-arrow i {
   display: table-cell;

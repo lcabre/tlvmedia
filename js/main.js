@@ -1,28 +1,5 @@
 $(document).ready(function(){
-	
-	$( ".fh5co-arrow" ).mouseenter(function() {
-	  $( this ).animate({
-          backgroundColor: "#f78465",
-        }, 250); 
-    });
 
-    $( ".fh5co-arrow" ).mouseleave(function() {
-	  $( this ).animate({
-          backgroundColor: "#f86942",
-        }, 250); 
-    });
-
-	$( ".fa-facebook, .fa-twitter, .fa-instagram" ).mouseenter(function() {
-	  $( this ).animate({
-          color: "#52C5C5",
-        }, 300 );
-	});
-
-	$( ".fa-facebook, .fa-twitter, .fa-instagram" ).mouseleave(function() {
-	  $( this ).animate({
-            color:"#f86942",
-        }, 300 );
-	});
 	// Scroll Animations
 	// SmoothScroll
 	var smoothScroll = function() {
