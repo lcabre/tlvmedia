@@ -1,6 +1,20 @@
 @import url("font-awesome.min.css");
 @import url("bootstrap.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@keyframes cf3FadeInOut {
+  0% {
+    opacity:1;
+  }
+  45% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
 
 body{
   font-weight: 300;
@@ -117,7 +131,37 @@ box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.5);
   color:white;
   font-size:22px;
   z-index:20;
+
 }
+
+#header .top {
+  animation-name: cf3FadeInOut;
+  background-image:url("../img/imagen3.jpg");
+  background-repeat: none;
+  position: absolute;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5
+}
+.corte{
+  overflow: hidden;
+}
+#header .bottom {
+  background-image: url("../img/utp.jpg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -15
+}
+
 #header .overlay {
   position: absolute;
   top: 0;

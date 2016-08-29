@@ -85,6 +85,8 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 		<section id="header">
+			<!--<div class="bottom"></div>
+  			<div  class="top"></div>-->
 			<div class="overlay"></div>
 			<div class="inner">
 				<!-- <img src="img/logo.png"/> -->
@@ -193,7 +195,7 @@
 			</div>
 		</section>
 		<section id="footer">
-			<a href="#nav" class="smoothscroll fh5co-arrow"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+			<a href="#header" class="smoothscroll fh5co-arrow"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 			<div class="container">
 				<div class="row socialout animate-box">
 					<div class="social">
