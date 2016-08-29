@@ -20,7 +20,7 @@
 		<![endif]-->
 		</head>
 	<body>
-		<nav class="navbar navbar-default" id="nav">
+		<nav class="navbar navbar-default navbar-fixed-top" id="nav">
 		
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -105,8 +105,8 @@
 		<section id="dos">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 animate-box">
-						<div class="text-center">
+					<div class="col-md-4 col-sm-4 animate-box">
+						<div class="text-center bold">
 							<h3>Comunicaci&oacute;n IP a Medida</h2>
 							<img src="img/voip.png" class="img-responsive center-block" alt="Responsive image">
 							<ul class="list-group">
@@ -133,8 +133,8 @@
 						</div>
 						
 					</div>
-					<div class="col-md-4 animate-box">
-						<div class="text-center">
+					<div class="col-md-4 col-sm-4 animate-box">
+						<div class="text-center bold">
 							<h3>Promoci&oacute;n Wifi para Hoteles</h2>
 							<img src="img/wifi.png" class="img-responsive center-block" alt="Responsive image">
 							<ul class="list-group">
@@ -161,8 +161,8 @@
 						</div>
 						
 					</div>
-					<div class="col-md-4 animate-box">
-						<div class="text-center">
+					<div class="col-md-4  col-sm-4 animate-box">
+						<div class="text-center bold">
 							<h3>Soluciones de Video Vigilancia</h2>
 							<img src="img/cam.png" class="img-responsive center-block" alt="Responsive image">
 							<ul class="list-group">
@@ -234,7 +234,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 animate-box" style="z-index:-1;">
 						<div id="map"></div>
 					</div>
 				</div>
