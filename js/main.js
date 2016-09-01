@@ -18,12 +18,6 @@ $(document).ready(function(){
 				$(this.element).addClass('fadeInUp animated');
 			}
 		} , { offset: '70%' } );
-		/*$('.animate-box').waypoint( function( direction ) {
-			if( direction === 'down' && !$(this).hasClass('animated') ) {
-				console.log($(this.element).addClass('fadeInUp animated'));
-			}
-		} , { offset: '70%' } );*/
-
 	};
 	
 	var header = function() {
@@ -61,7 +55,6 @@ $(document).ready(function(){
 					}, 500);
 					
 					$(this).addClass('animated');
-						
 				}
 			} , { offset: '70%' } );
 		}

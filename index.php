@@ -44,7 +44,7 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Empresa<span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Quienes Somos</a></li>
+									<li><a class="smoothscroll" href="#uno">Quienes Somos</a></li>
 									<li><a href="#">Projectos de Referencia</a></li>
 								</ul>
 							</li>
