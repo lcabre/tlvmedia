@@ -3,13 +3,21 @@ $(document).ready(function(){
 	// Scroll Animations
 	// SmoothScroll
 	var smoothScroll = function() {
-		$('.smoothscroll').click(function(){
+		$('.smoothscroll').click(function(event){
+			event.preventDefault();
 			$('html, body').animate({
 				scrollTop: $( $.attr(this, 'href') ).offset().top
 			}, 700, 'easeInOutExpo');
 		});
 	};
-	
+
+	var sPageURL = decodeURIComponent(window.location.search.substring(1));
+	if(sPageURL){
+		$('html, body').animate({
+				scrollTop: $( "#"+sPageURL ).offset().top
+		}, 700, 'easeInOutExpo');
+		console.log("sPageURL");
+	}
 	
 	// Animate Feature
 	var general = function() {
